@@ -13,9 +13,6 @@
     "scroll bar",
     "highlight results"
   ],
-  "activationCommands": {
-    "atom-workspace": "git-scroll-marker:toggle"
-  },
   "repository": "https://github.com/atom/git-scroll-marker",
   "license": "MIT",
   "engines": {

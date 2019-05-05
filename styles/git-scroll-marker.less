@@ -1,8 +1,16 @@
+/* stylelint-disable selector-type-no-unknown */
 // The ui-variables file is provided by base themes provided by Atom.
 //
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables";
 
-.git-scroll-marker {
+.git-marker-layer {
+  display: block;
+}
+
+atom-workspace.git-visible {
+  .git-marker-layer {
+    display: block;
+  }
 }
