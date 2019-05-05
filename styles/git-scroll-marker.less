@@ -3,14 +3,15 @@
 //
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
-@import "ui-variables";
+// @import "ui-variables";
 
-.git-marker-layer {
-  display: block;
+.git-marker-layer-add {
+  display:block;
+  .scroll-marker {}
 }
 
-atom-workspace.git-visible {
-  .git-marker-layer {
-    display: block;
-  }
-}
+
+
+
+// .git-marker-layer-edit { display: block; }
+.git-marker-layer-remove { display: block; }
