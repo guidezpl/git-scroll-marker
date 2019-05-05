@@ -1,0 +1,36 @@
+{
+  "name": "git-scroll-marker",
+  "main": "./lib/git-scroll-marker",
+  "version": "0.1.0",
+  "description": "Highlights git differences on the scroll bar",
+  "author": "Pierre-Louis Guidez",
+  "keywords": [
+    "git",
+    "git diff",
+    "diff",
+    "highlight",
+    "scrollbar",
+    "scroll bar",
+    "highlight results"
+  ],
+  "activationCommands": {
+    "atom-workspace": "git-scroll-marker:toggle"
+  },
+  "repository": "https://github.com/atom/git-scroll-marker",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "scroll-marker": {
+      "versions": {
+        "0.1.0": "consumeScrollMarker"
+      }
+    },
+  },
+  "dependencies": {
+  },
+  "package-deps": [
+    "scroll-marker"
+  ]
+}
